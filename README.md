@@ -1,5 +1,7 @@
 # 🌐 poly-cloud-mcp - Simplify Multi-Cloud Management
 
+[![SafeSkill NaN/100](https://img.shields.io/badge/SafeSkill-NaN%2F100_Blocked-red)](https://safeskill.dev/scan/hiruna219066-poly-cloud-mcp)
+
 ## 🚀 Getting Started
 
 Welcome to poly-cloud-mcp! This software helps you manage multiple cloud services from one place. Whether you use AWS, GCP, Azure, or DigitalOcean, this tool makes it easy to control your cloud resources.
